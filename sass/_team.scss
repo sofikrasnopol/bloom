@@ -1,0 +1,65 @@
+.galeria__intro {
+    h2 {
+        @extend %titulo;
+        text-align: left;
+        font-size: 300%;
+        margin: 3rem 4rem 0;
+    }
+
+    p {
+        font-size: 120%;
+        margin-left: 4rem;
+        width: 70%;
+        line-height: 2;
+    }
+}
+
+
+.galeria-team ul {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.galeria-team .team {
+    position: relative;
+}
+
+.galeria-team li {
+    line-height: 0;
+    margin: 1.5rem;
+
+    img {
+        border-radius: 50%;
+    }
+}
+
+.galeria-team .team-info h3 {
+    font-family: 'Spartan', sans-serif; font-weight: 700; font-size: 200%;
+    text-transform: uppercase;
+}
+
+.galeria-team .team-info p {
+    font-family: 'Spartan', sans-serif; font-weight: 500;
+    text-transform: uppercase;
+}
+
+.galeria-team .team .team-info {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #05f7cc;
+    width: 100%;
+    height: 100%;
+    display: none;
+    line-height: 1.5;
+    transition: opacity 0.2s;
+    text-align: center;
+}
+
+.galeria-team .team:hover .team-info {
+    display: block;
+    opacity: 0.7;
+    border-radius: 50%;
+}

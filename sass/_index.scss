@@ -1,0 +1,62 @@
+// MISION
+
+.mision {
+
+    margin-top: 3rem;
+    text-align: center;
+
+    .mision__titulo {
+        @extend %titulo;
+        font-size: 400%;
+    }
+
+    .mision__texto {
+        line-height: 2;
+        font-size: 120%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .mision__cta {
+        text-align: center;
+        margin: 2rem 0 2rem;
+    }
+
+    .mision__cta a {
+        @extend %cta;
+    }
+
+}
+
+
+// UNIQUE
+
+.unique {
+
+    .unique__titulo {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .unique__titulo h2 {
+        @extend %titulo;
+        margin-top: 2rem;
+    }
+
+    .unique__subtitulo {
+        font-family: $tipografia-titulos;
+        color: #000000;
+        font-weight: 700;
+        font-size: 120%;
+        text-transform: uppercase;     
+    }
+
+    .unique__texto {
+        color: #000000;
+        text-align: center;
+        line-height: 2;
+        margin-bottom: 2rem;
+    }
+}
+
+

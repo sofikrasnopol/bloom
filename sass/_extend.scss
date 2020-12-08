@@ -1,0 +1,64 @@
+// NAV INDEX
+
+%nav {
+    background-color: #000000;
+    color: #05f7cc;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 10px;
+    opacity: 0.7;
+    transition: color 0.1s;
+
+    &:hover {
+        color: #ffffff;
+    }
+}
+
+// NAV RESTO DE LOS HTML'S
+
+%cover {
+    background-image: url(../multimedia/About/about-cover.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+}
+
+
+// LOGO
+
+%logo {
+    color: $color-logo;
+    font-family: $tipografia-titulos;
+    text-shadow: $sombra-titulos;
+    font-weight: 900;
+    font-size: 300%;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+
+// TITULOS
+
+%titulo {
+    font-family: $tipografia-titulos;
+    color: $color-titulo;
+    font-size: 200%;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+// CALL TO ACTION 
+
+%cta {
+    background-color: $color-fondocta;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: color 0.1s; 
+
+    &:hover {
+        color: #ffffff;
+    }
+}

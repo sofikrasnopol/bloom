@@ -1,0 +1,54 @@
+.contact__fondo {
+	background-color: #05f7cc;
+}
+
+
+
+.contact {
+    .contact__titulo {
+		padding: 15px;
+		font-family: 'Spartan', sans-serif; font-weight: 900; font-size: 250%;
+		text-transform: uppercase; 
+		margin-top: 1rem;
+    }
+}
+
+form input[type="text"],
+form input[type="email"]{
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin: 0.5rem 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:2rem;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+textarea{
+	width:100%;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:0.5rem 0;
+	resize:none;
+    display:block;
+	}
+	
+
+.contact__footer {
+	margin: 4rem 7rem;
+
+	li {
+		padding: 20px;
+	}
+}

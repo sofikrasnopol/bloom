@@ -1,0 +1,44 @@
+.about {
+    .about__titulo {
+        @extend %titulo;
+        font-size: 300%;
+        margin-top: 3rem;
+        width: 100%;
+        text-align: left;
+    }
+
+    .about__texto {
+        line-height: 2;
+        font-size: 110%;
+        margin-bottom: 2rem;
+        width: 80%;
+    }
+}
+
+
+.trust {
+    display: flex;
+    margin-top: 5rem;
+
+    .trust__info {
+        margin: 2rem;
+
+        .trust__titulo {
+            @extend %titulo;
+            text-align: left;
+        }
+
+        .trust__texto {
+            line-height: 2;
+            margin-bottom: 2rem;
+        }
+
+        .trust__cta {
+            @extend %cta;
+        }
+    }
+}
+
+
+
+

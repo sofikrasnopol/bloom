@@ -1,0 +1,39 @@
+.our_services {
+    .services__titulo {
+        @extend %titulo;
+        font-size: 300%;
+        margin-top: 3rem;
+    }
+
+    .services__texto {
+        line-height: 2;
+        font-size: 120%;
+        margin-bottom: 2rem;
+        width: 70%;
+    }
+}
+
+.services_article {
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+
+    .services_info {
+        margin-left: 3rem;
+
+        .services_info__titulo {
+            @extend %titulo;
+            text-align: left;
+        }
+
+        .services_info__texto {
+            line-height: 2;
+            width: 80%;
+            margin-bottom: 2rem;
+        }
+
+        .services_info__cta {
+            @extend %cta;
+        }
+    }
+}

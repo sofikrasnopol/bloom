@@ -1,0 +1,49 @@
+.footer__fondo {
+    background-color: $color-fondo;
+}
+
+.footer {
+
+    .footer__titulo {
+        font-family: $tipografia-titulos;
+        font-weight: 900;
+        font-size: 200%;
+        text-transform: uppercase;
+        margin-top: 2rem;
+    }
+
+    .footer__redes {
+        display: flex;
+        
+        a {
+            padding: 10px;
+        }
+    }
+
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        transition: color 0.1s;
+
+        &:hover {
+            color: #ffffff;
+        }
+    }    
+
+    .footer__mapa {
+        transition: opacity 0.5s;  
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+
+    .footer__derechos {
+        text-align: center;
+    }
+
+    }
+
+
+

@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  font-size: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+#navbarTogglerDemo03 ul li a {
+  background-color: #000000;
+  color: #05f7cc;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 10px;
+  opacity: 0.7;
+  transition: color 0.1s;
+}
+#navbarTogglerDemo03 ul li a:hover {
+  color: #ffffff;
+}
+
+.inicio2 {
+  background-image: url(../multimedia/About/about-cover.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 70vh;
+}
+
+.inicio2 .inicio__logo, .inicio .inicio__logo {
+  color: #ffffff;
+  font-family: "Spartan", sans-serif;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  font-weight: 900;
+  font-size: 300%;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.galeria__intro h2, .services_article .services_info .services_info__titulo, .our_services .services__titulo, .trust .trust__info .trust__titulo, .about .about__titulo, .unique .unique__titulo h2, .mision .mision__titulo {
+  font-family: "Spartan", sans-serif;
+  color: #05f7cc;
+  font-size: 200%;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.services_article .services_info .services_info__cta, .trust .trust__info .trust__cta, .mision .mision__cta a, .inicio .inicio__cta {
+  background-color: #05f7cc;
+  padding: 10px;
+  text-transform: uppercase;
+  transition: color 0.1s;
+}
+.services_article .services_info .services_info__cta:hover, .trust .trust__info .trust__cta:hover, .mision .mision__cta a:hover, .inicio .inicio__cta:hover {
+  color: #ffffff;
+}
+
+.inicio {
+  background-image: url(../multimedia/homecover-.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.inicio .inicio__texto {
+  padding: 120px;
+  text-align: center;
+}
+.inicio .inicio__titulo {
+  font-family: "Spartan", sans-serif;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+  font-size: 250%;
+  text-transform: uppercase;
+  padding: 20px;
+  text-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+}
+.mision {
+  margin-top: 3rem;
+  text-align: center;
+}
+.mision .mision__titulo {
+  font-size: 400%;
+}
+.mision .mision__texto {
+  line-height: 2;
+  font-size: 120%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.mision .mision__cta {
+  text-align: center;
+  margin: 2rem 0 2rem;
+}
+.unique .unique__titulo {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.unique .unique__titulo h2 {
+  margin-top: 2rem;
+}
+.unique .unique__subtitulo {
+  font-family: "Spartan", sans-serif;
+  color: #000000;
+  font-weight: 700;
+  font-size: 120%;
+  text-transform: uppercase;
+}
+.unique .unique__texto {
+  color: #000000;
+  text-align: center;
+  line-height: 2;
+  margin-bottom: 2rem;
+}
+
+.footer__fondo {
+  background-color: #05f7cc;
+}
+
+.footer .footer__titulo {
+  font-family: "Spartan", sans-serif;
+  font-weight: 900;
+  font-size: 200%;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+.footer .footer__redes {
+  display: flex;
+}
+.footer .footer__redes a {
+  padding: 10px;
+}
+.footer .footer__links {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  transition: color 0.1s;
+}
+.footer .footer__links:hover {
+  color: #ffffff;
+}
+.footer .footer__mapa {
+  transition: opacity 0.5s;
+}
+.footer .footer__mapa:hover {
+  opacity: 0.9;
+}
+.footer .footer__derechos {
+  text-align: center;
+}
+
+.about .about__titulo {
+  font-size: 300%;
+  margin-top: 3rem;
+  width: 100%;
+  text-align: left;
+}
+.about .about__texto {
+  line-height: 2;
+  font-size: 110%;
+  margin-bottom: 2rem;
+  width: 80%;
+}
+
+.trust {
+  display: flex;
+  margin-top: 5rem;
+}
+.trust .trust__info {
+  margin: 2rem;
+}
+.trust .trust__info .trust__titulo {
+  text-align: left;
+}
+.trust .trust__info .trust__texto {
+  line-height: 2;
+  margin-bottom: 2rem;
+}
+.our_services .services__titulo {
+  font-size: 300%;
+  margin-top: 3rem;
+}
+.our_services .services__texto {
+  line-height: 2;
+  font-size: 120%;
+  margin-bottom: 2rem;
+  width: 70%;
+}
+
+.services_article {
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+}
+.services_article .services_info {
+  margin-left: 3rem;
+}
+.services_article .services_info .services_info__titulo {
+  text-align: left;
+}
+.services_article .services_info .services_info__texto {
+  line-height: 2;
+  width: 80%;
+  margin-bottom: 2rem;
+}
+.galeria__intro h2 {
+  text-align: left;
+  font-size: 300%;
+  margin: 3rem 4rem 0;
+}
+.galeria__intro p {
+  font-size: 120%;
+  margin-left: 4rem;
+  width: 70%;
+  line-height: 2;
+}
+
+.galeria-team ul {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.galeria-team .team {
+  position: relative;
+}
+
+.galeria-team li {
+  line-height: 0;
+  margin: 1.5rem;
+}
+.galeria-team li img {
+  border-radius: 50%;
+}
+
+.galeria-team .team-info h3 {
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 200%;
+  text-transform: uppercase;
+}
+
+.galeria-team .team-info p {
+  font-family: "Spartan", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.galeria-team .team .team-info {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #05f7cc;
+  width: 100%;
+  height: 100%;
+  display: none;
+  line-height: 1.5;
+  transition: opacity 0.2s;
+  text-align: center;
+}
+
+.galeria-team .team:hover .team-info {
+  display: block;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+
+.contact__fondo {
+  background-color: #05f7cc;
+}
+
+.contact .contact__titulo {
+  padding: 15px;
+  font-family: "Spartan", sans-serif;
+  font-weight: 900;
+  font-size: 250%;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+
+form input[type=text],
+form input[type=email] {
+  padding: 3px 10px;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 0.5rem 0;
+  display: inline-block;
+}
+
+form input[type=submit] {
+  width: 100%;
+  padding: 8px 16px;
+  margin-top: 2rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: block;
+  color: #fff;
+  background-color: #000;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 0.5rem 0;
+  resize: none;
+  display: block;
+}
+
+.contact__footer {
+  margin: 4rem 7rem;
+}
+.contact__footer li {
+  padding: 20px;
+}
