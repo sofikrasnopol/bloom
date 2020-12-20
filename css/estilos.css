@@ -73,7 +73,7 @@ a {
   height: 100vh;
 }
 .inicio .inicio__texto {
-  padding: 120px;
+  margin-top: 9rem;
   text-align: center;
 }
 .inicio .inicio__titulo {
@@ -170,7 +170,6 @@ a {
   line-height: 2;
   font-size: 110%;
   margin-bottom: 2rem;
-  width: 80%;
 }
 
 .trust {
@@ -193,7 +192,6 @@ a {
   line-height: 2;
   font-size: 120%;
   margin-bottom: 2rem;
-  width: 70%;
 }
 
 .services_article {
@@ -220,7 +218,6 @@ a {
 .galeria__intro p {
   font-size: 120%;
   margin-left: 4rem;
-  width: 70%;
   line-height: 2;
 }
 
