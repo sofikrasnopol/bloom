@@ -55,13 +55,13 @@ a {
   text-align: center;
 }
 
-.services_article .services_info .services_info__cta, .trust .trust__info .trust__cta, .mision .mision__cta a, .inicio .inicio__cta {
+.services_article .services_info .services_info__cta, .mision .mision__cta a, .inicio .inicio__cta {
   background-color: #05f7cc;
   padding: 10px;
   text-transform: uppercase;
   transition: color 0.1s;
 }
-.services_article .services_info .services_info__cta:hover, .trust .trust__info .trust__cta:hover, .mision .mision__cta a:hover, .inicio .inicio__cta:hover {
+.services_article .services_info .services_info__cta:hover, .mision .mision__cta a:hover, .inicio .inicio__cta:hover {
   color: #ffffff;
 }
 
@@ -174,19 +174,17 @@ a {
 }
 
 .trust {
-  display: flex;
-  margin-top: 5rem;
-}
-.trust .trust__info {
-  margin: 2rem;
-}
-.trust .trust__info .trust__titulo {
-  text-align: left;
+  margin: 4rem 0 2rem;
 }
 .trust .trust__info .trust__texto {
   line-height: 2;
   margin-bottom: 2rem;
+  text-align: center;
 }
+.trust .trust__fotos {
+  text-align: center;
+}
+
 .our_services .services__titulo {
   font-size: 300%;
   margin-top: 3rem;
@@ -272,7 +270,10 @@ a {
 }
 
 .galeria-team .team:hover .team-info {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   opacity: 0.7;
   border-radius: 50%;
 }
