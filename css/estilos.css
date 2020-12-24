@@ -295,7 +295,7 @@ form input[type=email] {
   border-radius: 3px;
   background-color: #f6f6f6;
   margin: 0.5rem 0;
-  display: inline-block;
+  display: flex;
 }
 
 form input[type=submit] {
