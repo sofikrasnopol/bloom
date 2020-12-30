@@ -12,27 +12,26 @@
     }
 }
 
-.services_article {
-    display: flex;
-    align-items: center;
-    margin: 2rem;
 
-    .services_info {
-        margin-left: 3rem;
+.services {
 
-        .services_info__titulo {
-            @extend %titulo;
-            text-align: left;
-        }
-
-        .services_info__texto {
-            line-height: 2;
-            width: 80%;
-            margin-bottom: 2rem;
-        }
-
-        .services_info__cta {
-            @extend %cta;
-        }
+    .services__imagen {
+        margin-bottom: 2rem
+    }
+    .services_info__titulo {
+        @extend %titulo;
+        text-align: left;
+    }
+    
+    .services_info__texto {
+        line-height: 2;
+        margin-bottom: 2rem;
+    }
+    
+    .services__info__boton {
+        margin-bottom: 2rem
+    }
+    .services_info__cta {
+        @extend %cta;
     }
 }

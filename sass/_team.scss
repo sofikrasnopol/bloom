@@ -3,12 +3,11 @@
         @extend %titulo;
         text-align: left;
         font-size: 300%;
-        margin: 3rem 4rem 0;
+        margin-top: 3rem;
     }
 
     p {
         font-size: 120%;
-        margin-left: 4rem;
         line-height: 2;
     }
 }

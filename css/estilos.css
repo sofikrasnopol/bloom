@@ -46,7 +46,7 @@ a {
   padding: 10px;
 }
 
-.galeria__intro h2, .services_article .services_info .services_info__titulo, .our_services .services__titulo, .trust .trust__info .trust__titulo, .about .about__titulo, .unique .unique__titulo h2, .mision .mision__titulo {
+.galeria__intro h2, .services .services_info__titulo, .our_services .services__titulo, .trust .trust__info .trust__titulo, .about .about__titulo, .unique .unique__titulo h2, .mision .mision__titulo {
   font-family: "Spartan", sans-serif;
   color: #05f7cc;
   font-size: 200%;
@@ -55,13 +55,13 @@ a {
   text-align: center;
 }
 
-.services_article .services_info .services_info__cta, .mision .mision__cta a, .inicio .inicio__cta {
+.services .services_info__cta, .mision .mision__cta a, .inicio .inicio__cta {
   background-color: #05f7cc;
   padding: 10px;
   text-transform: uppercase;
   transition: color 0.1s;
 }
-.services_article .services_info .services_info__cta:hover, .mision .mision__cta a:hover, .inicio .inicio__cta:hover {
+.services .services_info__cta:hover, .mision .mision__cta a:hover, .inicio .inicio__cta:hover {
   color: #ffffff;
 }
 
@@ -194,30 +194,26 @@ a {
   margin-bottom: 2rem;
 }
 
-.services_article {
-  display: flex;
-  align-items: center;
-  margin: 2rem;
+.services .services__imagen {
+  margin-bottom: 2rem;
 }
-.services_article .services_info {
-  margin-left: 3rem;
-}
-.services_article .services_info .services_info__titulo {
+.services .services_info__titulo {
   text-align: left;
 }
-.services_article .services_info .services_info__texto {
+.services .services_info__texto {
   line-height: 2;
-  width: 80%;
+  margin-bottom: 2rem;
+}
+.services .services__info__boton {
   margin-bottom: 2rem;
 }
 .galeria__intro h2 {
   text-align: left;
   font-size: 300%;
-  margin: 3rem 4rem 0;
+  margin-top: 3rem;
 }
 .galeria__intro p {
   font-size: 120%;
-  margin-left: 4rem;
   line-height: 2;
 }
 
@@ -280,7 +276,6 @@ a {
 }
 
 .contact .contact__titulo {
-  padding: 15px;
   font-family: "Spartan", sans-serif;
   font-weight: 900;
   font-size: 250%;
